@@ -24,8 +24,8 @@ inline:
     - name: vista-websocket
       container:
         image: "512332547043.dkr.ecr.us-east-2.amazonaws.com/optix-server-nonprod:1.0.0.0_2"
-        memoryLimit: "1536M",
-        memoryRequest: "200M",
+        memoryLimit: "1536M"
+        memoryRequest: "200M"
         endpoints:
           - name: websocket
             targetPort: 80
