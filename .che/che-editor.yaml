@@ -5,7 +5,7 @@ inline:
   components:
     - name: vista-ide
       container:
-        image: "512332547043.dkr.ecr.us-east-2.amazonaws.com/optix-client-nonprod:1.0.0.0_3"
+        image: "512332547043.dkr.ecr.us-east-2.amazonaws.com/optix-client-nonprod:1.0.0.0_4"
         mountSources: true
         endpoints:
           - name: vista
@@ -23,7 +23,7 @@ inline:
           - exposedPort: 8080
     - name: vista-websocket
       container:
-        image: "512332547043.dkr.ecr.us-east-2.amazonaws.com/optix-server-nonprod:1.0.0.0_3"
+        image: "512332547043.dkr.ecr.us-east-2.amazonaws.com/optix-server-nonprod:1.0.0.0_4"
         memoryLimit: "1536M"
         memoryRequest: "200M"
         endpoints:
